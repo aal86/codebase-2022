@@ -7,7 +7,7 @@
 
 import os
 
-
+from app.utils import to_usd
 
 # checks to see if a products.csv file exists. If not, it uses the default
 if os.path.isfile(os.path.join(os.path.dirname(__file__), "..", "data", "products.csv")) == True:
