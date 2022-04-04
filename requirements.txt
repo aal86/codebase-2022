@@ -7,7 +7,7 @@
 python-dotenv
 
 # web requests / fetching data:
-#requests
+requests
 
 # data processing:
 pandas

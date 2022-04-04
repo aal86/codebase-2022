@@ -50,3 +50,14 @@ Run the inventory report:
 ```sh
 python app/groceries.py
 ```
+
+Run the stocks app:
+
+```sh
+python app/stocks.py
+```
+Run the unemployment app:
+
+```sh
+python app/unemployment.py
+```
