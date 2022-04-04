@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 import requests
 import json
+from pandas import read_csv
 
 load_dotenv()
 
@@ -23,10 +24,9 @@ def fetch_crypto_data(symbol):
 
 
 def fetch_stocks_data(symbol):
-    # url = ...
-    # make a request
-    # return some data
-    return "TODO"
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={ALPHAVANTAGE_API_KEY}&datatype=csv"
+    df = read_csv(url)
+    return df
 
 
 def fetch_unemployment_data():
