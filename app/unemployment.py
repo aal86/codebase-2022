@@ -1,6 +1,6 @@
 
 
-from alphavantage_service import fetch_unemployment_data
+from app.alphavantage_service import fetch_unemployment_data
 
 
 print("UNEMPLOYMENT REPORT...")

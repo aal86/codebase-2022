@@ -1,7 +1,7 @@
 
 
 
-from alphavantage_service import fetch_crypto_data
+from app.alphavantage_service import fetch_crypto_data
 
 
 print("CRYPTO REPORT...")

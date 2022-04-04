@@ -1,6 +1,6 @@
 
 
-from alphavantage_service import fetch_stocks_data
+from app.alphavantage_service import fetch_stocks_data
 
 
 print("STOCKS REPORT...")
