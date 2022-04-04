@@ -54,10 +54,15 @@ python app/groceries.py
 Run the stocks app:
 
 ```sh
-python app/stocks.py
+python -m app.stocks.py
 ```
 Run the unemployment app:
 
 ```sh
-python app/unemployment.py
+python -m app.unemployment.py
+```
+
+Run the crypto file
+```sh
+python -m app.crypto
 ```
