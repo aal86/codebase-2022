@@ -57,7 +57,6 @@ print("---------")
 #for p in products:
     #print("..." + p["name"] + "   " + to_usd(p["price"]))
 
-
 all_prices = []
 for p in products:
     print("..." + p["name"] + "   " + to_usd(p["price"]))

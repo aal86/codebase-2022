@@ -66,3 +66,10 @@ Run the crypto file
 ```sh
 python -m app.crypto
 ```
+
+#Testing
+
+Run the tests:
+```sh
+pytest
+```
