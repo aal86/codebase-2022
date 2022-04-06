@@ -54,12 +54,12 @@ python app/groceries.py
 Run the stocks app:
 
 ```sh
-python -m app.stocks.py
+python -m app.stocks
 ```
 Run the unemployment app:
 
 ```sh
-python -m app.unemployment.py
+python -m app.unemployment
 ```
 
 Run the crypto file
