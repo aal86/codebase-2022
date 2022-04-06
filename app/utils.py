@@ -5,14 +5,14 @@
 
 def to_usd(my_price):
     '''
-    this is a docstring it tells us what this function is about.
-    what its responsibilities are
-    what the params are about
-    what datatypes the params are
-    what this function will return
-    example of invoking the function
+    this function is used to cut off after two decimals
+    and place a dollar sign in front to put
+    it in currency formatting
+    the paramater is a float of the number you
+    want formatted. it returns it in currency format
 
     invoke like this: to_usd(9.9999)
+    and it will return $9.99
     '''
 
     return '${:,.2f}'.format(my_price)

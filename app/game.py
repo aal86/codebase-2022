@@ -6,12 +6,14 @@ from random import choice
 
 def determine_winner(user_choice, computer_choice):
     '''
-    this is a docstring it tells us what this function is about.
-    what its responsibilities are
-    what the params are about
-    what datatypes the params are
-    what this function will return
-    example of invoking the function
+    
+    this function is used to determine the winner 
+    of a game of rock paper scissors
+    the parameter inputs are strings of the user
+    and computer choices between rock paper
+    and scissors. the function determines the 
+    winner between the choices. 
+    example of invoking the function 
 
     invoke like this: determine_winner(u,c)
     returns if the user won, if the computer won, or if it is a tie
